@@ -1,0 +1,110 @@
+body {
+  max-width: 60%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.weatherApp {
+  display: block;
+  margin: auto;
+  max-width: 740px;
+  margin-top: 16px;
+  border-radius: 14px;
+  background: #f7f6e7;
+}
+.submit-button,
+.current-location {
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+:hover.submit-button,
+:hover.current-location {
+  background-color: #f2a154;
+  transition: all 22ms ease-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+  font-family: "Shippori Mincho", serif;
+}
+h1 {
+  font-size: 50px;
+  line-height: 1.5;
+  padding-top: 10px;
+  color: #314e52;
+  font-weight: bolder;
+}
+
+h3 {
+  padding: 10px;
+  color: #f7f6e7;
+}
+
+h5 {
+  text-align: center;
+  font-size: 15px;
+}
+b {
+  font-weight: 800;
+}
+
+i {
+  color: #f7f6e7;
+  font-size: 200px;
+  display: inline;
+}
+
+a {
+  color: #f7f6e7;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 5px;
+}
+a:hover {
+  color: #f2a154;
+}
+p {
+  color: #f7f6e7;
+  font-size: 25px;
+}
+.todayWeatherblock {
+  margin: 10px;
+  border: solid grey 1px;
+  border-radius: 16px;
+  background: #314e52;
+}
+
+.nextWeatherblock {
+  margin: 10px;
+}
+
+.cityBlock {
+  margin: 10px;
+}
+
+.todayTemperature {
+  text-align: right;
+}
+
+.card-img-top {
+  width: 60px;
+  display: block;
+  margin: auto;
+}
+
+.moreInfo {
+  margin-top: 40px;
+  background: #314e52;
+  border-radius: 16px;
+  border: solid #f2a154 5px;
+}
+
+.card {
+  background-color: #e7e6e1;
+  border: none;
+  overflow: hidden;
+}

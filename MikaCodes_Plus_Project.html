@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodesPlus</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/8d4a2f02ab.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="src/styles.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+  <body>
+
+    <div class="weatherApp" class="containter" >
+        <div class="row">
+          <div class="col-6">
+        <div class="todayWeatherblock">
+           <i class="fas fa-cloud-sun"></i>
+         <div class="todayTemperature" class="col-3">
+            <h3 class="weatherCondition" id = "conditionNow">
+            Sunny but humid
+           
+            </h3>
+       <h3 class="todaysTemp" id="temperatureNow"> 30° / 18°</h3> 
+            </div>
+            </div>
+       
+</div>
+          <div class="col-6">
+              <div class="cityBlock">
+
+            <div class="searchField">
+              <form class="cityclass" id="city-search"> 
+              <input type="text" class = "city" id="city-input" placeholder="Enter city" />
+                        <input type="submit" value="Search" class="submit-button" id = "submit-city">
+                                    </form>
+
+                               <span>     <button class="submit-button" id = "current-city">Current</button>
+</span>
+                            </div>
+
+                        <h2 class="cityh1">Weather in: </h2> <br>
+                             <h1 class="city" id ="cityShowing"> Paris </h1>
+                             <br>
+                             <h2 class="date" id="theDateIwant">March 8th</h2>
+                             <h2 class="time" id="theTimeNow">11.00pm</h2>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="nextWeatherblock">
+      <div class="row">
+        <div class="col-3">
+          <div class="card">
+                     <i  class="fas fa-cloud-sun" class="todaysImage"></i>
+
+            <div class="card-body">
+              <h5 class="card-title"><b>30°</b>/ 18°</h5>
+              <p class="card-text">
+                Hot and cloudy
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+                     <i class="fas fa-cloud-sun"></i>
+
+            <div class="card-body">
+            <h5 class="card-title"><b>30°</b>/ 18°</h5>
+              <p class="card-text">
+                Hot and cloudy
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+                      <i  class="fas fa-cloud-sun" class="todaysImage"></i>
+
+            <div class="card-body">
+             <h5 class="card-title"><b>30°</b>/ 18°</h5>
+              <p class="card-text">
+                Hot and cloudy
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+                      <i  class="fas fa-cloud-sun"></i>
+
+            <div class="card-body">
+              <h5 class="card-title"><b>30°</b>/ 18°</h5>
+              <p class="card-text">
+                Hot and cloudy
+
+              </p>
+            </div>
+          </div>
+        </div>
+     
+      </div>
+                <div class="moreInfo">
+      <div class="row">
+        <div class="col-6" >         
+             <h3 >More information about Paris</h3>
+            </div>
+          <div class="col-6">
+            <h3 class="suggested activities">Things you can do in paris</h3>
+            </div>
+            </div>
+         </div>
+
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
